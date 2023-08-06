@@ -1,0 +1,19 @@
+ white flash after using navigation(resolve by black theme).
+ not the best way
+
+import {
+  NavigationContainer,
+  DarkTheme,
+} from '@react-navigation/native';
+
+export default () => {
+ 
+  return (
+    <NavigationContainer theme={DarkTheme}>
+      {/*Other Tab.Navigtor content*/}
+    </NavigationContainer>
+  );
+};
+
+or better add the a backgroudcolor on your app.jason 
+and set it to the color of your app Content.Style color
